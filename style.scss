@@ -17,7 +17,9 @@ $clean-h1: #fca311;
 body {
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  background-color: $bg-color;
+  // background-color: $bg-color;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 
@@ -57,6 +59,7 @@ h1 {
   position: relative;
   font-size: 4.5vw;
   color: $classic-white;
+
   z-index: 5;
   margin-right: 250px;
 
@@ -75,6 +78,7 @@ h1 {
 
 #advice {
   color: $classic-white;
+
   position: relative;
 
   z-index: 2;
@@ -98,7 +102,9 @@ h1 {
   letter-spacing: 2.5px;
   font-weight: 500;
   color: #000;
-  background-color: #fff;
+  // background-color: #fff;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(203, 153, 46, 1) 100%);
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -108,7 +114,7 @@ h1 {
 }
 
 #adviceBtn:hover {
-  background-color: #fb8500;
+
   box-shadow: 0px 15px 20px rgba(169, 127, 19, 0.4);
   color: #fff;
   transform: translateY(-7px);
